@@ -1,0 +1,77 @@
+===== RELATÓRIO OPERACIONAL =====
+Data e hora: Mon Jun 15 22:40:43 UTC 2026
+Projeto: TavernBoard Cloud
+Tema: Infraestrutura para Fórum Online de RPG
+
+===== ESPAÇO EM DISCO =====
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         233G  146G   75G  67% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/nvme0n1p2  233G  146G   75G  67% /app
+tmpfs           7.7G     0  7.7G   0% /proc/acpi
+tmpfs           7.7G     0  7.7G   0% /proc/asound
+tmpfs           7.7G     0  7.7G   0% /proc/scsi
+tmpfs           7.7G     0  7.7G   0% /sys/devices/virtual/powercap
+tmpfs           7.7G     0  7.7G   0% /sys/firmware
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu0/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu1/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu2/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu3/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu4/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu5/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu6/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu7/thermal_throttle
+
+===== USO DOS DIRETÓRIOS =====
+4.0K	/app/Dockerfile
+8.0K	/app/backups
+4.0K	/app/docker-compose.yml
+1.9M	/app/evidencias
+36K	/app/logs
+40K	/app/scripts
+20K	/app/source
+36K	/app/tavernboard
+
+===== STATUS DO APACHE =====
+[OK] Apache em execução
+
+===== ÚLTIMOS BACKUPS =====
+total 12K
+drwxrwxr-x 2 1000 tavern_ops 4.0K Jun 15 21:06 .
+drwxrwxr-x 8 1000 tavern_ops 4.0K Jun 15 21:06 ..
+-rw-r--r-- 1 root root        341 Jun 15 21:06 backup_tavernboard_2026-06-15_21-06.tar.gz
+
+===== LOGS GERADOS =====
+total 40K
+drwxrwxr-x 2 1000 tavern_ops 4.0K Jun 15 22:40 .
+drwxrwxr-x 8 1000 tavern_ops 4.0K Jun 15 21:06 ..
+-rw-r--r-- 1 root root        119 Jun 15 21:05 apache.log
+-rw-r--r-- 1 root root         96 Jun 15 21:06 backup.log
+-rw-r--r-- 1 root root        648 Jun 15 22:33 deploy.log
+-rw-r--r-- 1 root root         78 Jun 15 21:06 estrutura.log
+-rw-r--r-- 1 root root        121 Jun 15 22:35 monitoramento.log
+-rw-r--r-- 1 root root       1.9K Jun 15 22:40 relatorio_execucao.txt
+-rw-r--r-- 1 root root        109 Jun 15 21:03 update.log
+-rw-r--r-- 1 root root        690 Jun 15 22:39 usuarios_permissoes.log
+
+===== ARQUIVOS PUBLICADOS NO APACHE =====
+total 24K
+drwxr-xr-x 1 root root 4.0K Jun 15 22:33 .
+drwxr-xr-x 1 root root 4.0K Jun 15 20:58 ..
+drwxr-xr-x 2 root root 4.0K Jun 15 22:33 assets
+-rw-r--r-- 1 root root 1.7K Jun 15 22:33 index.html
+-rw-r--r-- 1 root root 1.4K Jun 15 22:33 sobre.html
+
+===== USUÁRIOS E PERMISSÕES =====
+uid=999(mestre_rpg) gid=1000(tavern_ops) groups=1000(tavern_ops)
+tavern_ops:x:1000:
+total 32
+drwxr-x--- 8 mestre_rpg tavern_ops 4096 Jun 15 21:06 .
+drwxrwxr-x 8       1000 tavern_ops 4096 Jun 15 21:06 ..
+drwxrwx--- 2 mestre_rpg tavern_ops 4096 Jun 15 21:06 backups
+drwxr-x--- 2 mestre_rpg tavern_ops 4096 Jun 15 21:06 campanhas
+drwxr-x--- 4 mestre_rpg tavern_ops 4096 Jun 15 21:06 forum
+drwxrwx--- 2 mestre_rpg tavern_ops 4096 Jun 15 21:06 logs
+drwxr-x--- 2 mestre_rpg tavern_ops 4096 Jun 15 21:06 personagens
+drwxr-x--- 2 mestre_rpg tavern_ops 4096 Jun 15 21:06 publicacao

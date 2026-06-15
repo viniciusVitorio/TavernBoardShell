@@ -1,0 +1,27 @@
+Iniciando deploy...
+Arquivos publicados:
+total 24
+drwxr-xr-x 1 root root 4096 Jun 15 21:09 .
+drwxr-xr-x 1 root root 4096 Jun 15 20:58 ..
+drwxr-xr-x 2 root root 4096 Jun 15 21:09 assets
+-rw-r--r-- 1 root root  465 Jun 15 21:09 index.html
+-rw-r--r-- 1 root root  576 Jun 15 21:09 sobre.html
+[OK] Deploy realizado com sucesso.
+Iniciando deploy...
+Arquivos publicados:
+total 24
+drwxr-xr-x 1 root root 4096 Jun 15 22:33 .
+drwxr-xr-x 1 root root 4096 Jun 15 20:58 ..
+drwxr-xr-x 2 root root 4096 Jun 15 22:33 assets
+-rw-r--r-- 1 root root 1660 Jun 15 22:33 index.html
+-rw-r--r-- 1 root root 1346 Jun 15 22:33 sobre.html
+[OK] Deploy realizado com sucesso.
+Iniciando deploy...
+Arquivos publicados:
+total 24
+drwxr-xr-x 1 root root 4096 Jun 15 22:41 .
+drwxr-xr-x 1 root root 4096 Jun 15 20:58 ..
+drwxr-xr-x 2 root root 4096 Jun 15 22:41 assets
+-rw-r--r-- 1 root root 1660 Jun 15 22:41 index.html
+-rw-r--r-- 1 root root 1346 Jun 15 22:41 sobre.html
+[OK] Deploy realizado com sucesso.

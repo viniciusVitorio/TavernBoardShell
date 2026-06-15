@@ -1,0 +1,14 @@
+===== USUÁRIOS, GRUPOS E PERMISSÕES =====
+Data: Mon Jun 15 22:39:50 UTC 2026
+[OK] Grupo criado: tavern_ops
+[OK] Usuário de sistema criado: mestre_rpg
+[OK] Permissões aplicadas em /app/tavernboard
+total 32
+drwxr-x--- 8 mestre_rpg tavern_ops 4096 Jun 15 21:06 .
+drwxrwxr-x 8       1000 tavern_ops 4096 Jun 15 21:06 ..
+drwxrwx--- 2 mestre_rpg tavern_ops 4096 Jun 15 21:06 backups
+drwxr-x--- 2 mestre_rpg tavern_ops 4096 Jun 15 21:06 campanhas
+drwxr-x--- 4 mestre_rpg tavern_ops 4096 Jun 15 21:06 forum
+drwxrwx--- 2 mestre_rpg tavern_ops 4096 Jun 15 21:06 logs
+drwxr-x--- 2 mestre_rpg tavern_ops 4096 Jun 15 21:06 personagens
+drwxr-x--- 2 mestre_rpg tavern_ops 4096 Jun 15 21:06 publicacao
