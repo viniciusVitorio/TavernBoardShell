@@ -23,6 +23,8 @@ monitorar() {
         echo "[ALERTA] Apache parado" | tee -a "$LOG"
     fi
 
+    [ "$CPU" -gt 80 ] && echo "[ALERTA] CPU acima do limite: ${CPU}%" | tee -a "$LOG"
+
     [ "$MEM" -gt 80 ] && echo "[ALERTA] Memória acima de 80%" | tee -a "$LOG"
 
     [ "$DISCO" -gt 80 ] && echo "[ALERTA] Disco acima de 80%" | tee -a "$LOG"
